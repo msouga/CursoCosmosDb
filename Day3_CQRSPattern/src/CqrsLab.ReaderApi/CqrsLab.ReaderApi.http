@@ -1,0 +1,6 @@
+@CqrsLab.ReaderApi_HostAddress = http://localhost:5081
+
+GET {{CqrsLab.ReaderApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

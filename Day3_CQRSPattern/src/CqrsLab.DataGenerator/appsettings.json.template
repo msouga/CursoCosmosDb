@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "SqlConnectionString": "Server=tcp:TU_SERVIDOR_SQL.database.windows.net,1433;Initial Catalog=ErpDb;User ID=azureadmin;Password=LabPassw0rd!;",
+    "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=TU_CUENTA_DE_STORAGE;AccountKey=TU_CLAVE_DE_STORAGE;EndpointSuffix=core.windows.net"
+  }
+}

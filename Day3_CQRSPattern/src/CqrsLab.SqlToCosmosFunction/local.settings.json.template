@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "TU_CONNECTION_STRING_DE_STORAGE_ACCOUNT",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "StorageQueueConnection": "TU_CONNECTION_STRING_DE_STORAGE_ACCOUNT",
+    "SqlConnectionString": "Server=tcp:TU_SERVIDOR.database.windows.net,1433;Initial Catalog=ErpDb;User ID=azureadmin;Password=LabPassw0rd!;",
+    "CosmosDbEndpoint": "https://TU_CUENTA_COSMOS.documents.azure.com:443/",
+    "CosmosDbKey": "TU_COSMOS_DB_PRIMARY_KEY"
+  }
+}

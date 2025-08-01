@@ -1,0 +1,10 @@
+dotnet watch 🔥 Hot reload enabled. For a list of supported edits, see https://aka.ms/dotnet/hot-reload.
+  💡 Press "Ctrl + R" to restart.
+dotnet watch ⌚ Building /Users/msouga/code/curso-cosmosdb-dotnet/CursoCosmosDb/Day3_CQRSPattern/src/CqrsLab.SqlToCosmosFunction/CqrsLab.SqlToCosmosFunction.csproj ...
+dotnet watch 🔨 Build failed: /Users/msouga/code/curso-cosmosdb-dotnet/CursoCosmosDb/Day3_CQRSPattern/src/CqrsLab.SqlToCosmosFunction/CqrsLab.SqlToCosmosFunction.csproj
+dotnet watch 🔨   Determinando los proyectos que se van a restaurar...
+dotnet watch 🔨   Todos los proyectos están actualizados para la restauración.
+dotnet watch 🔨   CqrsLab.Shared -> /Users/msouga/code/curso-cosmosdb-dotnet/CursoCosmosDb/Day3_CQRSPattern/src/CqrsLab.Shared/bin/Debug/net8.0/CqrsLab.Shared.dll
+dotnet watch ❌ /Users/msouga/code/curso-cosmosdb-dotnet/CursoCosmosDb/Day3_CQRSPattern/src/CqrsLab.SqlToCosmosFunction/SincronizarCliente.cs(62,33): error CS0103: El nombre '_cosmosClient' no existe en el contexto actual [/Users/msouga/code/curso-cosmosdb-dotnet/CursoCosmosDb/Day3_CQRSPattern/src/CqrsLab.SqlToCosmosFunction/CqrsLab.SqlToCosmosFunction.csproj]
+dotnet watch ⏳ Waiting for a file to change before restarting ...
+dotnet watch 🛑 Shutdown requested. Press Ctrl+C again to force exit.

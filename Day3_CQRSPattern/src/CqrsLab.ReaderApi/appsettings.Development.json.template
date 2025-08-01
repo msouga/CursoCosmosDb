@@ -1,0 +1,14 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "CosmosDb": {
+    "Endpoint": "https://TU_CUENTA_COSMOS.documents.azure.com:443/",
+    "Key": "TU_COSMOS_DB_PRIMARY_KEY",
+    "Database": "ReadModelDb",
+    "Container": "Clientes"
+  }
+}
