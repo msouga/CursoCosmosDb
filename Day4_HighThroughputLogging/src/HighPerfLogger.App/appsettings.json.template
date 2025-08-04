@@ -1,0 +1,8 @@
+{
+  "CosmosDb": {
+    "Endpoint": "AQUÍ_VA_EL_ENDPOINT_DE_TU_COSMOS_DB",
+    "Key": "AQUÍ_VA_LA_LLAVE_PRIMARIA_DE_TU_COSMOS_DB",
+    "DatabaseName": "LoggingDb",
+    "ContainerName": "SystemLogs"
+  }
+}
