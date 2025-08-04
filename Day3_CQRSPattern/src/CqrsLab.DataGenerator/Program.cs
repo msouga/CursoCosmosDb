@@ -94,8 +94,8 @@ namespace CqrsLab.DataGenerator
         {
             var random = new Random();
             string[] Nombres = { "Inversiones del Sol SAC", "Comercializadora Andina", "Servicios Logísticos del Pacifico", "Exportadora del Norte", "Tecnología y Sistemas Globales", "Agroindustrias del Valle EIRL", "Constructora e Inmobiliaria Horizonte", "Distribuidora de Alimentos del Sur", "Soluciones Mineras Integrales", "Factoría Textil de los Andes", "Consultores Financieros y Asociados", "Innovaciones Plásticas Industriales", "Transportes y Carga Panamericana", "Grupo Editorial Cóndor", "Desarrollos de Software Latinoamericanos", "Maderas y Enchapados de la Amazonía", "Laboratorios Químicos del Perú", "Proyectos Energéticos Renovables", "Clínica y Centro Médico San Pablo", "Academia de Idiomas El Continental" };
-            string[] CiudadesPeru = { "Lima", "Arequipa", "Trujillo", "Chiclayo" };
-            string[] CiudadesChile = { "Santiago", "Valparaíso", "Concepción" };
+            string[] CiudadesPeru = { "Lima", "Arequipa", "Trujillo", "Chiclayo", "Tacna" };
+            string[] CiudadesChile = { "Santiago", "Valparaíso", "Concepción", "Temuco" };
 
             var pais = random.Next(2) == 0 ? "Peru" : "Chile";
             var ciudad = pais == "Peru" ? CiudadesPeru[random.Next(CiudadesPeru.Length)] : CiudadesChile[random.Next(CiudadesChile.Length)];
